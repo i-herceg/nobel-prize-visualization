@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vizualizacija Podataka o Nobelovim Nagradama</title>
+    <link rel="stylesheet" type="text/css" href="stil.css">
+</head>
+<body>
+    <div class="container">
+        <h1>VIZUALIZACIJA PODATAKA O NOBELOVIM NAGRADAMA</h1>
+        <img src="Nobel_Prize.png" alt="Nobel Prize">
+    </div>
+    <div class ="prvi-red">
+        <div id="line-chart"></div>
+        <div id="sunburst"></div>
+    </div>
+    <div class ="drugi-red">
+        <div id="mapa"></div>
+    </div>
+    <div class ="treci-red">
+        <div class ="radar-graf">
+            <h3 id="naslov"></h3>
+            <div id="radar"></div>
+            <button id="iduca-godina">Iduća godina</button>
+        </div>
+        <div id ="scatter"></div>
+    </div>
+    <div class ="cetvrti-red">
+        <div id="box-plot"></div>
+        <div class ="bar-graf">
+            <div id="bar"></div>  
+            <div id="botuni"></div>
+            <h3 id="spol"></h3>
+        </div>
+    </div>
+    <script src="d3.js"></script>
+    <script src="line.js"></script>
+    <script src="sunburst.js"></script>
+    <script src="mapa.js"></script>
+    <script src="radar.js"></script>
+    <script src="scatter.js"></script>
+    <script src="boxPlot.js"></script>
+    <script src="bar.js"></script>
+    <script src= 
+"https://d3js.org/d3-geo-projection.v2.min.js"> 
+    </script>
+</body>
+</html>

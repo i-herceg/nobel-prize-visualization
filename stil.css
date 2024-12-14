@@ -1,0 +1,157 @@
+body {
+    background-color:  #FAF0CA;
+  }
+h1, h3 {
+    text-align: start;
+    font-family: Cambria;
+    color: goldenrod;
+}
+img {
+    padding: 2em;
+    width: 150px; 
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#line-chart{
+    background-color: #faebaf;
+    border-radius: 10px;
+}
+.tooltip {
+    position: absolute;
+    background-color: #FAF0CA;
+    border: 1px solid #0D3B66; 
+    padding: 5px;
+    pointer-events: none;
+    font-family: Cambria;
+    font-size: 15px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.dynamic-point {
+    stroke: #F95738;; 
+    stroke-width: 3px;
+}
+.x-axis-label, .y-axis-label {
+    font-family: Cambria;
+    font-size: 20px;
+    fill: #093258; 
+}
+.prvi-red, .drugi-red, .treci-red, .cetvrti-red{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    height: 100%;
+    width: 100%;
+}
+.gender-label, .category-label{
+    font-family: Cambria;
+    font-weight: bold;
+}
+.zemlja {
+  fill: lightblue;
+}
+#mapa{
+    width: 80%;
+}
+.mreza {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 0.5px;
+  stroke-dasharray: 2px 2px;
+}
+
+.drzava {
+  stroke: white;
+  stroke-width: 0.5px;
+}
+.drzava:hover{
+    fill: #093258;
+}
+.detalji {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    background-color: #FAF0CA;
+    border: 1px solid #0D3B66; 
+    font-family: Cambria;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+}
+.legenda-opis{
+    font-family: Cambria;
+    font-size: 20px;
+}
+button {
+  font-size: 1.2em;
+  margin-left: 1em;
+  padding: 0.5em 1em;
+  appearance: none;
+  -webkit-appearance: none;
+  background: #F95738;
+  color: white;
+  border: none;
+  box-shadow: 0 5px 0 0 #9c1d04;
+  border-radius: 6px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.1s ease-out;
+}
+
+button:hover,
+button:focus {
+  background: #9c1d04;
+}
+
+button:hover:active,
+button:focus:active,
+button:active {
+  box-shadow: 0 1px 0 0 #9c1d04;
+  transform: translateY(4px);
+}
+.radarArea {
+    fill: #F95738;
+    stroke: #F95738;
+    stroke-width: 2;
+    fill-opacity: 0.1;
+    transition: all 0.3s ease-out;
+}
+.tocke:hover{
+    fill: goldenrod;
+}
+#box-plot{
+    padding-left: 10px;
+}
+
+.x-axis-label, .y-axis-label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    fill: #093258; 
+}
+.kosara text {
+  text-anchor: middle;
+  fill: rgb(80, 78, 78);
+  font-size: 12px;
+  font-family: sans-serif;
+  transition: y 0.6s ease-out;
+}
+
+.prosjek {
+  stroke: maroon ;
+  stroke-dasharray: 2px 4px;
+}
+
+.x-os-oznaka {
+  fill: black;
+  font-size: 18px;
+  font-family: Cambria;
+  text-transform: capitalize;
+}
